@@ -1,5 +1,19 @@
 # Apartment Rent Calculator
 
+## Table of Contents
+- [Apartment Rent Calculator](#apartment-rent-calculator)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Running the API](#running-the-api)
+    - [Using the API](#using-the-api)
+    - [Running the Streamlit App](#running-the-streamlit-app)
+    - [Using the Streamlit App](#using-the-streamlit-app)
+  - [Contributing](#contributing)
+  - [License](#license)
+
 ## Overview
 
 The Apartment Rent Calculator is a project that provides an API for calculating apartment rent based on various parameters. Additionally, it features a Streamlit app that allows users to interactively input data and receive rent calculations in real-time.
@@ -72,6 +86,18 @@ To start the Streamlit app, use the following command:
 streamlit run app/app.py
 ```
 This will open the Streamlit app in your default web browser.
+
+### Using the Streamlit App
+
+1. **Input Fields**: Once the app is running, you will see input fields for:
+   - Number of bedrooms
+   - Number of bathrooms
+   - Location
+   - Square footage
+
+2. **Submit**: After filling in the details, click the "Calculate Rent" button.
+
+3. **Output**: The app will display the estimated rent based on the inputs provided.
 
 ## Contributing
 
