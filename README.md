@@ -44,7 +44,7 @@ To set up the project, follow these steps:
 
 To start the API, run the following command:
 ```bash
-python main.py
+python api.py
 ```
 This will launch the API on `http://localhost:5000`.
 
