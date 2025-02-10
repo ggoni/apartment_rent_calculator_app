@@ -44,7 +44,7 @@ To set up the project, follow these steps:
 
 To start the API, run the following command:
 ```bash
-python api/main.py
+python main.py
 ```
 This will launch the API on `http://localhost:5000`.
 
@@ -83,7 +83,7 @@ The API provides a `POST` endpoint for calculating rent. Here's how to use it:
 
 To start the Streamlit app, use the following command:
 ```bash
-streamlit run app/app.py
+streamlit run app.py
 ```
 This will open the Streamlit app in your default web browser.
 
